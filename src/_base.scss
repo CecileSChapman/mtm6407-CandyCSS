@@ -1,0 +1,62 @@
+@use 'colors';
+@use 'typography';
+@use 'variables';
+@use 'utilities';
+
+
+// Apply styles to HTML elements
+// Base style for body
+body {
+    font-family: typography.$primary-font-family;
+    font-size: typography.$base-font-size;
+    line-height: typography.$base-line-height;
+    color: colors.$text-color;
+    background-color: colors.$background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: typography.$secondary-font-family;
+    font-weight: typography.$heading-font-weight;
+}
+
+h1 {
+    font-size: typography.$h1-font-size;
+    color: colors.$primary-color;
+}
+
+h2 {
+    font-size: typography.$h2-font-size;
+    color: colors.$success-color;
+}
+
+h3 {
+    font-size: typography.$h3-font-size;
+    color: colors.$accent-color;
+}
+
+h4 {
+    font-size: typography.$h4-font-size;
+    color: colors.$info-color;
+}
+
+h5 {
+    font-size: typography.$h5-font-size;
+    color: colors.$warning-color;
+}
+
+h6 {
+    font-size: typography.$h6-font-size;
+    color: colors.$error-color;
+}
+
+p {
+    font-size: typography.$font-size-sm;
+}
+
+// Strong
+strong {
+    font-weight: typography.$font-weight-bold;
+}
+
+
+

@@ -1,0 +1,43 @@
+// _typography.scss
+
+// Primary Font Family
+$primary-font-family: 'Roboto', sans-serif;
+
+// Secondary Font Family
+$secondary-font-family: 'Abril Fatface', 'Roboto', sans-serif;
+
+// Base Font Size
+$base-font-size: 16px;
+
+// Base Line Height
+$base-line-height: 1.6;
+
+// Font Sizes
+$font-size-sm: 0.875em;  // Small
+$font-size-md: 1em;      // Medium
+$font-size-lg: 1.25em;   // Large
+$font-size-xl: 1.5em;    // Extra Large
+$font-size-2xl: 1.75em;  // 2 Extra Large
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Header Font Sizes
+$h1-font-size: 2.5em;
+$h2-font-size: 2em;
+$h3-font-size: 1.8em;
+$h4-font-size: 1.5em;
+$h5-font-size: 1.2em;
+$h6-font-size: 1em;
+
+// Body Text Styles
+$base-font-weight: 400;
+$body-line-height: $base-line-height;
+
+// Header Text Styles
+$heading-font-weight: 700;
+
