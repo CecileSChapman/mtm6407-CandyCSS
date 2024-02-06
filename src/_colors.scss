@@ -1,0 +1,30 @@
+// _colors.scss
+
+$primary-color: #ffd9ff;
+$secondary-color: #E0FFFF;
+$accent-color: #6A7BFF;
+
+// Background Colors
+$background-color: #F9F9F9;
+$background-dark-color: #2c3e50;
+
+// Text Colors
+$text-color: #333;
+$text-light-color: #fff;
+
+// Link Colors
+$link-color: $accent-color;
+$link-hover-color: darken($primary-color, 10%);
+
+// Button Colors
+$button-bg-color: $primary-color;
+$button-text-color: $accent-color;
+
+// Success and Error Colors
+$success-color: #a7c957;
+$error-color: #d90429;
+
+// Additional Colors
+$info-color: #48cae4;
+$warning-color: #fcbf49;
+
