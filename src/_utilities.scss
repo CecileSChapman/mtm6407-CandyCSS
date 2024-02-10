@@ -1,0 +1,74 @@
+@use 'variables';
+@use 'typography';
+
+// utilities.scss
+
+// Margins
+.mt-0 {
+    margin-top: variables.$mt-0;
+}
+  
+.mb-lg {
+    margin-bottom: variables.$mb-lg;
+}
+  
+.mr-sm {
+    margin-right: variables.$mr-sm;
+}
+  
+.ml-md {
+    margin-left: variables.$ml-md;
+}
+
+// Paddings
+.pt-0 {
+    padding-top: variables.$pt-0;
+}
+  
+.pb-sm {
+    padding-bottom: variables.$pb-sm;
+}
+  
+.pr-lg {
+    padding-right: variables.$pr-lg;
+}
+  
+.pl-md {
+    padding-left: variables.$pl-md;
+}
+
+// Borders
+.border-base {
+    border: variables.$base-border-width solid !important;
+    border-radius: variables.$base-border-radius !important;
+}
+  
+.border-sm {
+    border: variables.$sm-border-width solid !important;
+    border-radius: variables.$sm-border-radius !important;
+}
+  
+.border-md {
+    border: variables.$md-border-width solid !important;
+    border-radius: variables.$md-border-radius !important;
+}
+  
+.border-lg {
+    border: variables.$lg-border-width solid !important;
+    border-radius: variables.$lg-border-radius !important;
+}
+
+// Strong
+.text-strong{
+    font-weight: typography.$font-weight-bold;
+}
+
+// Text Alignment
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
