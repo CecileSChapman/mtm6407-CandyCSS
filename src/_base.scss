@@ -22,31 +22,37 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: typography.$h1-font-size;
     color: colors.$primary-color;
+    margin-bottom: variables.$mb-lg;
 }
 
 h2 {
     font-size: typography.$h2-font-size;
     color: colors.$success-color;
+    margin-bottom: variables.$mb-md;
 }
 
 h3 {
     font-size: typography.$h3-font-size;
     color: colors.$accent-color;
+    margin-bottom: variables.$mb-md;
 }
 
 h4 {
     font-size: typography.$h4-font-size;
     color: colors.$info-color;
+    margin-bottom: variables.$mb-sm;
 }
 
 h5 {
     font-size: typography.$h5-font-size;
     color: colors.$warning-color;
+    margin-bottom: variables.$mb-sm;
 }
 
 h6 {
     font-size: typography.$h6-font-size;
     color: colors.$error-color;
+    margin-bottom: variables.$mb-sm;
 }
 
 p {
