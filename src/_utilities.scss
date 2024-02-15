@@ -25,8 +25,8 @@
     padding-top: variables.$pt-0;
 }
   
-.pb-sm {
-    padding-bottom: variables.$pb-sm;
+.pb-lg {
+    padding-bottom: variables.$pb-lg;
 }
   
 .pr-lg {
@@ -63,11 +63,15 @@
     font-weight: typography.$font-weight-bold;
 }
 
-// Text Alignment
+//Text Alignment
 .text-center{
     text-align: center;
 }
 
+//Text Decoration
+.none-decoration {
+    text-decoration: none;
+}
 
 
 

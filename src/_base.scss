@@ -2,6 +2,7 @@
 @use 'typography';
 @use 'variables';
 @use 'utilities';
+@use 'reset';
 
 
 // Apply styles to HTML elements
@@ -55,14 +56,49 @@ h6 {
     margin-bottom: variables.$mb-sm;
 }
 
+ol {
+    font-family: typography.$secondary-font-family;
+    font-weight: typography.$heading-font-weight;
+}
+
+li {
+    color: colors.$success-color;}
+    
+dl {
+    font-family: typography.$secondary-font-family;
+    font-weight: typography.$heading-font-weight;
+}
+
+dt {
+    color: colors.$warning-color;
+}
+
+dd {
+    color: colors.$info-color;
+}
+
+a {
+    font-weight: typography.$heading-font-weight;
+    color: colors.$error-color;
+}
+
+blockquote {
+    color: colors.$warning-color;
+}
+
 p {
     font-size: typography.$font-size-sm;
+}
+
+button {
+    background-color: colors.$info-color;
+}
+
+button:hover {
+    background-color: colors.$warning-color;
 }
 
 // Strong
 strong {
     font-weight: typography.$font-weight-bold;
 }
-
-
-
