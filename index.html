@@ -12,22 +12,25 @@
 </head>
 
 
-<body>
-
+<body class="pl-md">
+  
   <!-- Headings -->
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
 
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+  
   <!-- Paragraph -->
-  <p>This is a sample paragraph with the custom theme.</p>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit nobis rem, incidunt repellat consequatur a beatae est ratione ducimus tempore voluptatibus. Quaerat architecto hic ipsa, facilis quis magnam velit eos!</p>
+  
+    <p>This is a sample paragraph with the custom theme.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit nobis rem, incidunt repellat consequatur a beatae est ratione ducimus tempore voluptatibus. Quaerat architecto hic ipsa, facilis quis magnam velit eos!</p>
+ 
 
   <!-- Lists -->
-  <div class="pl-md">
+  
   <ul>
     <li>List item 1</li>
     <li>List item 2</li>
@@ -48,79 +51,128 @@
 
   <!-- Button -->
   <button>Click me</button>
-</div>
+
 
   <!-- Form -->
-  <div class="border-lg ml-md mr-sm">
-  <form>
-    <label>Form Label</label>
-    <fieldset>
-      <legend>Form Legend</legend>
+  <div class="border-md mw-50 form-margin-top center">
+    <form>
+      <fieldset>
+        <legend>
+          <h3>Form Legend</h3>
+        </legend>
+    
+        <!-- Question and Checkboxes -->
+        <div class="form-group">
+          <p class="question">Choose one or more checkboxes:</p>
+          
+          <label for="checkbox1">Checkbox 1</label>
+          <input type="checkbox" id="checkbox1">
+    
+          <label for="checkbox2">Checkbox 2</label>
+          <input type="checkbox" id="checkbox2">
+    
+          <label for="checkbox3">Checkbox 3</label>
+          <input type="checkbox" id="checkbox3">
+        </div>
+    
+        <!-- Question and Radio Buttons -->
+        <div class="form-group">
+          <p class="question">Choose one radio button:</p>
+    
+          <label for="radio1">Radio 1</label>
+          <input type="radio" id="radio1" name="radio-group">
+    
+          <label for="radio2">Radio 2</label>
+          <input type="radio" id="radio2" name="radio-group">
+    
+          <label for="radio3">Radio 3</label>
+          <input type="radio" id="radio3" name="radio-group">
+        </div>
+    
+        <!-- Other Form Inputs -->
+        <label for="range">Range</label>
+        <input type="range" id="range">
 
-      <!-- Form Inputs -->
-      <label>Checkbox<input type="checkbox"></label>
-      <label>Radio<input type="radio"></label>
-      <label>Range<input type="range"></label>
-      <label>Search<input type="search"></label>
-      <label>Select
-        <select>
+        <label for="select">Select</label>
+        <select id="select">
           <option>Option 1</option>
           <option>Option 2</option>
         </select>
-      </label>
-      <label>Textarea<textarea></textarea></label>
+    
+        <label for="search">Search</label>
+        <input type="search" id="search">
+      
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea"></textarea>
 
-    </fieldset>
-  </form>
-</div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    
+    
+    
+  </div>
 
   <!-- Table -->
-  <table">
-    <caption>Table Caption</caption>
-    <colgroup>
-      <col>
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Header 1</th>
-        <th>Header 2</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Row 1, Cell 1</td>
-        <td>Row 1, Cell 2</td>
-      </tr>
-      <tr>
-        <td>Row 2, Cell 1</td>
-        <td>Row 2, Cell 2</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>Footer 1</td>
-        <td>Footer 2</td>
-      </tr>
-    </tfoot>
-  </table>
+  
+    <table>
+      <caption>
+        <h3>Table Caption</h3>
+      </caption>
+      <colgroup>
+        <col>
+        <col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Footer 1</td>
+          <td>Footer 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  
 
   <!-- Link -->
   <a class="none-decoration" href="https://github.com/CecileSChapman/mtm6407-custom-css-framework">Sample Link: Git Hub</a>
 
   <!-- Blockquote -->
-  <blockquote>This is a blockquote.</blockquote>
+  <blockquote>
+    <p>This is a blockquote</p>
+    <cite>- Author Name</cite>
+  </blockquote>
+  
 
   <!-- Short Quote -->
-  <q class="pb-lg"><strong>This is a short quote.</strong></q>
+  <q><strong>"This is a short quote."</strong></q>
 
   <!-- Code -->
-  <code>This is code.</code>
+  <code>
+    // Sample Code
+    function helloWorld() {
+      console.log('Hello, World!');
+    }
+  </code>
 
   <!-- Marked Text -->
   <div class="text-center">
-  <mark>This is highlighted text.</mark>
-</div>
+    <mark>This is highlighted text.</mark>
+  </div>
 
 </body>
 
