@@ -147,4 +147,4 @@ Certainly! Here's a basic structure for documenting the available styles and cla
 
 ## Examples
 
-You can view the elements here: https://cecileschapman.github.io/mtm6407-custom-css-framework/
+You can view the elements here: https://cecileschapman.github.io/mtm6407-CandyCSS/
