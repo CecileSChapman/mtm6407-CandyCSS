@@ -5,7 +5,7 @@ CandyCSS is a playful CSS framework designed to bring a cute and colorful theme 
 
 ## Installation
 
-To use CandyCSS in your project, simply include the provided CSS file in your HTML:
+To use CandyCSS in your project, simply [download main.css](css/main.css) and include the provided CSS file in your HTML:
 
 ```html
 <link rel="stylesheet" href="css/main.css">
