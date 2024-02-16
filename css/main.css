@@ -212,6 +212,11 @@ a {
   color: #d90429;
 }
 
+a:hover {
+  color: #a70320;
+  text-decoration: underline;
+}
+
 blockquote {
   color: #f4a304;
   border-left: 4px solid #fcbf49;

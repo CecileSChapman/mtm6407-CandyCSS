@@ -82,6 +82,12 @@ a {
     color: colors.$error-color;
 }
 
+a:hover {
+    color: darken(colors.$error-color, 10%);
+    text-decoration: underline;
+  }
+  
+
 blockquote {
     color: darken(colors.$warning-color, 15%);
     border-left: 4px solid colors.$warning-color;
