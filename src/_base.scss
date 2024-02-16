@@ -82,23 +82,201 @@ a {
     color: colors.$error-color;
 }
 
+a:hover {
+    color: darken(colors.$error-color, 10%);
+    text-decoration: underline;
+  }
+  
+
 blockquote {
-    color: colors.$warning-color;
+    color: darken(colors.$warning-color, 15%);
+    border-left: 4px solid colors.$warning-color;
+    padding: variables.$pl-md;
+    margin-top: variables.$mt-md;
+    margin-bottom: variables.$mb-md;
+    p {
+        font-style: italic;
+    }
+    cite {
+        display: block;
+        color: colors.$info-color;
+        font-size: typography.$font-size-sm;
+        margin-top: variables.$mt-sm;
+    }
 }
+
+q {
+    display: inline-block;   
+    padding-right: variables.$pr-sm;    
+    padding-left: variables.$pl-sm;
+    background-color: colors.$warning-color;
+    border-radius: variables.$base-border-radius;
+  }
+  
 
 p {
     font-size: typography.$font-size-sm;
 }
 
 button {
-    background-color: colors.$info-color;
-}
+    padding-top: variables.$pt-sm;
+    padding-right: variables.$pr-md;
+    padding-bottom: variables.$pb-sm;
+    padding-left: variables.$pl-md;
+    background-color: darken(colors.$primary-color, 15%);
+    color: #fff;
+    border: none;
+    border-radius: variables.$base-border-radius;
+    cursor: pointer;
+    font-size: typography.$font-size-lg;
+    transition: transform 0.3s ease-in-out;
 
-button:hover {
-    background-color: colors.$warning-color;
+    &:hover {
+        background-color: darken(colors.$primary-color, 25%);
+        transform: scale(1.03);
+      }
 }
 
 // Strong
 strong {
     font-weight: typography.$font-weight-bold;
 }
+
+
+//Form
+.form-margin-top {
+    margin-top: variables.$mt-md;
+}
+form {
+    padding-top: variables.$pt-lg;
+    padding-bottom: variables.$pb-lg;
+    padding-right: variables.$pr-lg;
+    padding-left: variables.$pl-lg;   
+  
+    .form-group {
+      margin-bottom: variables.$mb-md;
+      
+      display: flex;
+      align-items: baseline;
+    }
+  
+    .question {
+        margin-bottom: variables.$mb-md; 
+        margin-right: variables.$mr-md;
+        color: darken(colors.$primary-color, 10%); 
+        font-weight: typography.$font-weight-bold; 
+        font-size: typography.$h4-font-size;
+        flex-grow: 1;
+      }
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin-right: variables.$mr-md;
+        }
+
+    label {
+      display: block;
+      margin-bottom: variables.$mb-md;
+      margin-top: variables.$mt-sm;
+      margin-right: variables.$mr-sm;
+      font-weight: bold;
+      color: colors.$info-color;
+    }
+  
+    input[type="text"],
+    input[type="checkbox"],
+    input[type="radio"],
+    input[type="range"],
+    input[type=""],
+    select,
+    textarea {      
+     
+      margin-top: variables.$mt-sm;
+      border: 1px solid colors.$accent-color;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: typography.$font-size-md;
+    }
+
+    input[type="range"],
+    input[type="search"],
+    textarea,
+    select {
+        width: 100%;
+    }  
+  
+    select {      
+      cursor: pointer;
+      max-width: 400px;
+    }
+  
+    textarea {
+      resize: vertical;
+    }  
+  }
+
+//   Tables
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: variables.$mt-md;
+    margin-bottom: variables.$mb-md;
+  
+    caption {
+      font-size: typography.$font-size-md;
+      font-weight: typography.$font-weight-bold;
+      margin-bottom: variables.$mb-sm;
+    }
+  
+    colgroup {
+      col {
+        width: 50%; 
+      }
+    }
+  
+    thead {
+      th {
+        background-color: colors.$accent-color;
+        color: #fff;
+        padding: variables.$pb-sm;
+        text-align: left;
+        font-weight: typography.$font-weight-bold;
+      }
+    }
+  
+    tbody {
+      td {
+        padding: variables.$pb-sm;
+        border-bottom: 1px solid colors.$accent-color; 
+      }
+    }
+  
+    tfoot {
+      td {
+        background-color: colors.$info-color;
+        color: #fff;
+        padding: variables.$pb-sm;
+        text-align: left;
+        font-weight: typography.$font-weight-bold;
+      }
+    }
+  }
+
+code {
+    display: block;
+    background-color: colors.$accent-color;
+    color: #fff;
+    padding: variables.$pt-sm variables.$pr-md;
+    border-radius: variables.$base-border-radius;
+    margin-bottom: variables.$mb-md;
+    font-family: 'Courier New', monospace; 
+    white-space: pre-wrap; 
+    overflow-x: auto; 
+    max-height: 400px;
+    max-width: variables.$mw-50;
+    margin: 0 auto;
+  }
+
+
+  
+  

@@ -116,6 +116,26 @@ table {
   text-decoration: none;
 }
 
+.mw-25 {
+  max-width: 25%;
+}
+
+.mw-50 {
+  max-width: 50%;
+}
+
+.mw-75 {
+  max-width: 75%;
+}
+
+.mw-100 {
+  max-width: 100%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -192,8 +212,34 @@ a {
   color: #d90429;
 }
 
+a:hover {
+  color: #a70320;
+  text-decoration: underline;
+}
+
 blockquote {
-  color: #fcbf49;
+  color: #f4a304;
+  border-left: 4px solid #fcbf49;
+  padding: 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+blockquote p {
+  font-style: italic;
+}
+blockquote cite {
+  display: block;
+  color: #48cae4;
+  font-size: 0.875em;
+  margin-top: 0.5rem !important;
+}
+
+q {
+  display: inline-block;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+  background-color: #fcbf49;
+  border-radius: 5px;
 }
 
 p {
@@ -201,15 +247,135 @@ p {
 }
 
 button {
-  background-color: #48cae4;
+  padding-top: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 1rem !important;
+  background-color: #ff8dff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.25em;
+  transition: transform 0.3s ease-in-out;
 }
-
 button:hover {
-  background-color: #fcbf49;
+  background-color: #ff5aff;
+  transform: scale(1.03);
 }
 
 strong {
   font-weight: 700;
+}
+
+.form-margin-top {
+  margin-top: 1rem !important;
+}
+
+form {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+form .form-group {
+  margin-bottom: 1rem !important;
+  display: flex;
+  align-items: baseline;
+}
+form .question {
+  margin-bottom: 1rem !important;
+  margin-right: 1rem !important;
+  color: #ffa6ff;
+  font-weight: 700;
+  font-size: 1.5em;
+  flex-grow: 1;
+}
+form input[type=checkbox],
+form input[type=radio] {
+  margin-right: 1rem !important;
+}
+form label {
+  display: block;
+  margin-bottom: 1rem !important;
+  margin-top: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  font-weight: bold;
+  color: #48cae4;
+}
+form input[type=text],
+form input[type=checkbox],
+form input[type=radio],
+form input[type=range],
+form input[type=""],
+form select,
+form textarea {
+  margin-top: 0.5rem !important;
+  border: 1px solid #6A7BFF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+form input[type=range],
+form input[type=search],
+form textarea,
+form select {
+  width: 100%;
+}
+form select {
+  cursor: pointer;
+  max-width: 400px;
+}
+form textarea {
+  resize: vertical;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+table caption {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.5rem !important;
+}
+table colgroup col {
+  width: 50%;
+}
+table thead th {
+  background-color: #6A7BFF;
+  color: #fff;
+  padding: 0.5rem !important;
+  text-align: left;
+  font-weight: 700;
+}
+table tbody td {
+  padding: 0.5rem !important;
+  border-bottom: 1px solid #6A7BFF;
+}
+table tfoot td {
+  background-color: #48cae4;
+  color: #fff;
+  padding: 0.5rem !important;
+  text-align: left;
+  font-weight: 700;
+}
+
+code {
+  display: block;
+  background-color: #6A7BFF;
+  color: #fff;
+  padding: 0.5rem !important 1rem !important;
+  border-radius: 5px;
+  margin-bottom: 1rem !important;
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  max-height: 400px;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -73,6 +73,27 @@
     text-decoration: none;
 }
 
+//Max Width
+.mw-25 {
+    max-width: variables.$mw-25;
+}
 
+.mw-50 {
+    max-width: variables.$mw-50;
+}
+
+.mw-75 {
+    max-width: variables.$mw-75;
+}
+
+.mw-100 {
+    max-width: variables.$mw-100;
+}
+
+// center
+
+.center {
+    margin: 0 auto;
+}
 
 
